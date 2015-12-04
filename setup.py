@@ -9,7 +9,7 @@ version = '0.1'
 try:
     REQUIREMENTS = open('requirements.txt').read()
 except:
-    REQUIREMENTS = [        
+    REQUIREMENTS = [
     ]
 
 setup(name='pipdiff',
@@ -24,7 +24,7 @@ setup(name='pipdiff',
     author_email='little_pea@list.ru',
     url='https://github.com/ogt/pipdiff',
     license='BSD',
-    packages=find_packages(),    
+    packages=find_packages(),
     zip_safe=False,
     install_requires=REQUIREMENTS,
     entry_points={
